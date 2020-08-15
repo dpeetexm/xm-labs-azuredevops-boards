@@ -20,7 +20,7 @@ This is a closed-loop integration with Azure DevOps Boards. It has a trigger tha
 ## Files
 * xMatters
     * [AzureDevOpsBoards.zip](xMatters/workflows/AzureDevOpsBoards.zip) - example workflow
-    * [workItemEvent.js](xMatters/src/triggers/workItemEvent.js) - source code for trigger to recieve Work Item events
+    * [workItemEvent.js](xMatters/src/triggers/workItemEvent.js) - source code for trigger to receive Work Item events
     * [createWorkItem.js](xMatters/src/steps/createWorkItem.js) - source code for step to create a Work Item
     * [updateWorkItem.js](xMatters/src/steps/updateWorkItem.js) - source code for step to update a Work Item
     * [addWorkItemComment.js](xMatters/src/steps/addWorkItemComment.js) - source code for step to add comments to Work Item
@@ -215,7 +215,7 @@ The recipients in the event notification step in the exmaple workflow need to be
         <img src="media/xm-recipients-1.png" width="700">
     </kbd>
 
-2. In the setup add the xMatters users and/or groups you want to recieve the event notifications to the Recipients field. Click Done when complete.
+2. In the setup add the xMatters users and/or groups you want to receive the event notifications to the Recipients field. Click Done when complete.
 
     <kbd>
         <img src="media/xm-recipients-2.png" width="700">
